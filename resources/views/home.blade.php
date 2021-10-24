@@ -246,7 +246,7 @@
                                     <td>001</td>
                                     <td>Cargo compra</td>
                                     <td>Cargo</td>
-                                    <td>61234434545642</td>
+                                    <td>123456782322235</td>
                                     <td>2017/04/25</td>
                                 </tr>
                                 <tr>
