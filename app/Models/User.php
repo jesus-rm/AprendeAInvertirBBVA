@@ -41,4 +41,15 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    // AdminLTE: Recupera la imagen del administrador, de la BD
+    public function adminlte_image(){
+        return asset('/img/Avatars/default.png?' . time());
+        // return asset('/img/Avatars/default.png' . '?' . time());
+    }
+
+    // AdminLTE: Recupera el rol que tiene el usuario
+    public function adminlte_desc(){
+        return 'Usuario activo';
+    }
 }

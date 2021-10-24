@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<<<<<<< HEAD
 <head>
+=======
+        <title>Laravel</title>
+>>>>>>> origin/jrmDev
 
     <!--====== Required meta tags ======-->
     <meta charset="utf-8">

@@ -1,0 +1,41 @@
+h1.encabezado {
+    margin: 10px 0 50px 0!important;
+}
+
+.content-wrapper {
+    background: #f2f5f7!important;
+}
+
+h6.cards-cantidad{
+    font-weight: bolder!important;
+}
+
+.contenedor-grafico {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+img.grafica1 {
+    max-width: 100%;
+}
+
+.m-t-20 {
+    margin-top: 40px;
+}
+
+.widget-chart li{
+    display: inline-block;
+    width: 31.5%;
+}
+
+.ingresos {
+    color: #2d8dec;
+}
+
+.gastos {
+    color: #e22828;
+}
+
+.ahorro {
+    color: #d69b1d;
+}
