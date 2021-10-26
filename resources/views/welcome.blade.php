@@ -84,10 +84,10 @@
                                 <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                                     <ul class="navbar-nav m-auto">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Registrar</a>
+                                            <a class="nav-link" href="{{ route('register') }}">Registrar</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Ingresar</a>
+                                            <a class="nav-link" href="{{ route('login') }}">Ingresar</a>
                                         </li>
                                     </ul>
                                 </div> <!-- navbar collapse -->
@@ -112,8 +112,8 @@
                             <span class="wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="1.5s">Experimenta sin preocupaciones</span>
                             <p class="wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="2s"></p>
                             <ul class="wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="2.6s" >
-                                <li><a class="main-btn" href="#">Ingresar</a></li>
-                                <li><a class="main-btn main-btn-2" href="#">Registrar</a></li>
+                                <li><a class="main-btn" href="{{ route('login') }}">Ingresar</a></li>
+                                <li><a class="main-btn main-btn-2" href="{{ route('register') }}">Registrar</a></li>
                             </ul>
                         </div>
                     </div>
