@@ -4,7 +4,7 @@
 
 @section('content_header')
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/png">
-    <h1 class="m-0 text-dark encabezado">Inicio</h1>
+    <h1 class="m-0 text-dark encabezado">Inicio - web</h1>
 @stop
 
 @section('content')
